@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f7549e3f-e2a3-4cbd-863c-16fbf4bd65c8" name="VssAdministrator@fv-az45 2020-06-29 20:06:30" runUser="fv-az45\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-06-29T20:06:30.9113977+00:00" queuing="2020-06-29T20:06:30.9113979+00:00" start="2020-06-29T20:06:28.6987024+00:00" finish="2020-06-29T20:06:30.9276582+00:00" />
+  <TestSettings name="default" id="7b3aae6c-6da5-4e84-8796-723a43a22bed">
+    <Deployment runDeploymentRoot="VssAdministrator_fv-az45_2020-06-29_20_06_30" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="00f79b37-f2d9-4815-859a-f01bb5213559" testId="8996a04c-0494-72f5-95a9-d1471f3c1aad" testName="Post_IsDemandNull_ReturnsFalse" computerName="fv-az45" duration="00:00:00.0040890" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00f79b37-f2d9-4815-859a-f01bb5213559" />
+    <UnitTestResult executionId="b24ac86b-2e71-448a-9794-103a030d6a07" testId="0453c6b4-db0f-8580-e125-e0335ff2d727" testName="Authenticate_UserCredentialsIsCorrect_ReturnsToken" computerName="fv-az45" duration="00:00:00.0132140" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b24ac86b-2e71-448a-9794-103a030d6a07" />
+    <UnitTestResult executionId="25c6a15c-c181-4e8d-b306-a1e3e068fc8b" testId="8d361ed8-69ac-acb0-4a58-48e8ba0f865b" testName="GellAll_UserIsExist_ReturnsUserList" computerName="fv-az45" duration="00:00:00.0019730" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c6a15c-c181-4e8d-b306-a1e3e068fc8b" />
+    <UnitTestResult executionId="55ba8aa6-d903-466d-a50e-73f1198cd0c1" testId="ca70015c-e977-52e4-63be-c5e0fa930b16" testName="Post_IsDemandCreated_ReturnsTrue" computerName="fv-az45" duration="00:00:00.0440640" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55ba8aa6-d903-466d-a50e-73f1198cd0c1" />
+    <UnitTestResult executionId="eb2b54c6-fe04-404a-b337-7d54652773b8" testId="cd76851b-bc96-12ef-192e-afd9aa28b9ad" testName="Gell_UserIsExit_ReturnsMatchedUser" computerName="fv-az45" duration="00:00:00.0017930" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb2b54c6-fe04-404a-b337-7d54652773b8" />
+    <UnitTestResult executionId="9d61429c-61b2-4673-9f41-a97bf6d8774f" testId="c816188b-fa84-3952-c897-ce02014e6c54" testName="Get_CreatedDemand_ReturnsListOfDemandResource" computerName="fv-az45" duration="00:00:00.7935080" startTime="2020-06-29T20:06:29.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d61429c-61b2-4673-9f41-a97bf6d8774f" />
+    <UnitTestResult executionId="35ab97b2-4903-4115-9c44-46f086197de5" testId="429d5ad6-e6c0-8324-f7c0-67b3a26f2239" testName="Post_UserCredentialsIsNull_ReturnsBadRequest" computerName="fv-az45" duration="00:00:00.0014080" startTime="2020-06-29T20:06:30.0000000+00:00" endTime="2020-06-29T20:06:30.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35ab97b2-4903-4115-9c44-46f086197de5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Post_UserCredentialsIsNull_ReturnsBadRequest" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="429d5ad6-e6c0-8324-f7c0-67b3a26f2239">
+      <Execution id="35ab97b2-4903-4115-9c44-46f086197de5" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.UsersControllerTests" name="Post_UserCredentialsIsNull_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Post_IsDemandCreated_ReturnsTrue" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="ca70015c-e977-52e4-63be-c5e0fa930b16">
+      <Execution id="55ba8aa6-d903-466d-a50e-73f1198cd0c1" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.DemandControllerTests" name="Post_IsDemandCreated_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GellAll_UserIsExist_ReturnsUserList" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="8d361ed8-69ac-acb0-4a58-48e8ba0f865b">
+      <Execution id="25c6a15c-c181-4e8d-b306-a1e3e068fc8b" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.UsersControllerTests" name="GellAll_UserIsExist_ReturnsUserList" />
+    </UnitTest>
+    <UnitTest name="Get_CreatedDemand_ReturnsListOfDemandResource" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="c816188b-fa84-3952-c897-ce02014e6c54">
+      <Execution id="9d61429c-61b2-4673-9f41-a97bf6d8774f" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.DemandControllerTests" name="Get_CreatedDemand_ReturnsListOfDemandResource" />
+    </UnitTest>
+    <UnitTest name="Gell_UserIsExit_ReturnsMatchedUser" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="cd76851b-bc96-12ef-192e-afd9aa28b9ad">
+      <Execution id="eb2b54c6-fe04-404a-b337-7d54652773b8" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.UsersControllerTests" name="Gell_UserIsExit_ReturnsMatchedUser" />
+    </UnitTest>
+    <UnitTest name="Authenticate_UserCredentialsIsCorrect_ReturnsToken" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="0453c6b4-db0f-8580-e125-e0335ff2d727">
+      <Execution id="b24ac86b-2e71-448a-9794-103a030d6a07" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.UsersControllerTests" name="Authenticate_UserCredentialsIsCorrect_ReturnsToken" />
+    </UnitTest>
+    <UnitTest name="Post_IsDemandNull_ReturnsFalse" storage="d:\a\1\s\cba.training.talmate.api.unittests\bin\release\netcoreapp3.1\cba.training.talmate.api.unittests.dll" id="8996a04c-0494-72f5-95a9-d1471f3c1aad">
+      <Execution id="00f79b37-f2d9-4815-859a-f01bb5213559" />
+      <TestMethod codeBase="D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CBA.Training.Talmate.Api.UnitTests.DemandControllerTests" name="Post_IsDemandNull_ReturnsFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8996a04c-0494-72f5-95a9-d1471f3c1aad" executionId="00f79b37-f2d9-4815-859a-f01bb5213559" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0453c6b4-db0f-8580-e125-e0335ff2d727" executionId="b24ac86b-2e71-448a-9794-103a030d6a07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d361ed8-69ac-acb0-4a58-48e8ba0f865b" executionId="25c6a15c-c181-4e8d-b306-a1e3e068fc8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca70015c-e977-52e4-63be-c5e0fa930b16" executionId="55ba8aa6-d903-466d-a50e-73f1198cd0c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd76851b-bc96-12ef-192e-afd9aa28b9ad" executionId="eb2b54c6-fe04-404a-b337-7d54652773b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c816188b-fa84-3952-c897-ce02014e6c54" executionId="9d61429c-61b2-4673-9f41-a97bf6d8774f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429d5ad6-e6c0-8324-f7c0-67b3a26f2239" executionId="35ab97b2-4903-4115-9c44-46f086197de5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in D:\a\1\s\CBA.Training.Talmate.Api.UnitTests\bin\release\netcoreapp3.1\CBA.Training.Talmate.Api.UnitTests.dll&#xD;
+   NUnit3TestExecutor converted 7 of 7 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
